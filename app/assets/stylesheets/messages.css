@@ -72,14 +72,19 @@
 
 .header-button a{
   text-decoration: none;
-  border: 1px solid darkred;
-  color: darkred;
+  border: 1px solid rgb(177, 229, 250);
+  color: #d0d6d5;
   padding: 20px;
 }
 .messages {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0px;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0 0 0;
 }
 
 .upper-message{
@@ -89,6 +94,12 @@
 .message-user{
  color: #434a54;
  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
 .lower-message{
